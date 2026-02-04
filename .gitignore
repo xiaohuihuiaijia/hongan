@@ -1,0 +1,47 @@
+# 操作系统文件
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE 和编辑器
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# 日志文件
+*.log
+logs/
+
+# 临时文件
+*.tmp
+*.temp
+.cache/
+
+# 环境变量（敏感信息）
+.env
+.env.local
+.env.*.local
+
+# 依赖目录
+node_modules/
+vendor/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# 构建产物
+dist/
+build/
+out/
+*.exe
+*.dll
+*.so
+*.dylib
+
+# 压缩文件
+*.zip
+*.tar.gz
+*.rar
